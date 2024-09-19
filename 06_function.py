@@ -135,6 +135,21 @@ def recur(list1,idx=0):
     recur(list1,idx+1)    
 print(list)
    
+ # using while loop print each element of a list
+list=[1,5,6,9]
+def scan(list):
+    i=0
+    while(i<len(list)):
+        print(list[i])
+        i+=1
+    
+scan(list)
+
+# Using for loop print each element of list
+def scan(list):
+    for i in list:
+        print(i)
+scan(list) # 1 5 6 9   
 
 
 
